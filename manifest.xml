@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote
+        name        = "openembedded"
+        fetch       = "git://git.openembedded.org/"
+    />
+    <remote
+        name        = "yoctoproject"
+        fetch       = "git://git.yoctoproject.org/"
+    />
+    <remote
+        name        = "architech-boards"
+        fetch       = "https://github.com/architech-boards/"
+    />
+
+    <project
+        name        = "poky"
+        remote      = "yoctoproject"
+        revision    = "9c4ff467f66428488b1cd9798066a8cb5d6b4c3b"
+    />
+    <project
+        name        = "openembedded-core"
+        remote      = "openembedded"
+        revision    = "96270e79a70960289856cf424c9e4c1894acb18c"
+    />
+    <project
+        name        = "meta-xilinx"
+        remote      = "yoctoproject"
+        revision    = "2af8d2a0e63aa371045895da03ba2bf98b51adb4"
+    />
+    <project
+        name        = "meta-picozed"
+        remote      = "architech-boards"
+        revision    = "dizzy"
+    />
+</manifest>
